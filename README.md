@@ -25,7 +25,21 @@ python Similar_Texts.py
 
 The program itself will call the function that performs the similarity calculations. sample1.txt and sample2.txt hard coded in lines 61, 62. You can edit these lines to change which sample you would like to use.  (Note: I would have used argparse to throw these files in the command line, but did not want to violate the 'no libraries' restriction.
 
-2. Run webapp.py if you have flask installed or head to 
+2. Run as a web application.
+
+I have deployed my flask web app at http://rhong5.pythonanywhere.com/
+
+If you prefer to run it locally, ensure you have flask v1.1.1 installed.
+```
+pip install flask==1.1.1
+``` 
+
+Then run webapp.py.
+```
+python webapp.py
+```
+The output will have a address that you can click on to direct you to the application.
+
 
 3. Get the docker container from docker hub. 
   
