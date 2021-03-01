@@ -4,6 +4,9 @@ The objective of this exercise is to create a program that receives two text inp
 
 This program is also implemented as a __web service__, and a __docker container__ is present to be run via Docker hub. 
 
+![](pictures/ex1.png?raw=true)
+
+![](pictures/ex2.png?raw=true)
 
 ## How to run
 
@@ -38,6 +41,7 @@ $ python webapp.py
 ```
 The output will have a address that you can click on to direct you to the application.
 
+![](pictures/method2.png?raw=true)
 
 3. Run a docker container from docker hub
 https://hub.docker.com/layers/139314065/rhong5/dockerflask/latest/images/sha256-3bb85fb4aed2e6416cc5ec386b18cf33dfcde25e8429437994b8f6317835137f?context=explore
@@ -55,7 +59,7 @@ Run the container.
 ```
 $ docker run -p <externalport>:<localport> rhong/dockerflask
 ```
-
+![](pictures/method3.png?raw=true)
   
 ## Methodology
 
