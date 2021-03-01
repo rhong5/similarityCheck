@@ -21,6 +21,8 @@ $ python Similar_Texts.py
 
 The program itself will call the function that performs the similarity calculations for every combination of the 3 samples and print them to the console.
 
+![](pictures/method1.png?raw=true)
+
 2. Run as a web application.
 
 I have deployed my flask web app at http://rhong5.pythonanywhere.com/
