@@ -15,7 +15,7 @@ Install the python version if required.
 ```
 $ sudo apt install python3.7
 ```
-
+```
 $ python Similar_Texts.py
 ```
 
