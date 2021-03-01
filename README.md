@@ -89,7 +89,7 @@ __What type of data structures should be used?__
 Lists and sets are essential to this program, but if able, I believe using the Counter() function from collections library would help. That would allow me to keep track the number of times the same words have been used. 
 
 ## Thank you
-I would like to express my gratitude for allowing me to attempt this excercise. I hope it is of satisfaction!
+I would like to express my gratitude for allowing me to attempt this excercise. It was a fun and I hope it is of satisfaction!
 
 -Raymond Hong
 
