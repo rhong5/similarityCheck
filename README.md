@@ -57,7 +57,7 @@ $ docker pull rhong5/dockerflask:latest
 
 Run the container.
 ```
-$ docker run -p <externalport>:<localport> rhong/dockerflask
+$ docker run -p <externalport>:<localport> dockerflask
 ```
 ![](pictures/method3.png?raw=true)
   
