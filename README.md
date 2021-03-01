@@ -9,9 +9,14 @@ This program is also implemented as a __web service__, and a __docker container_
 
 I've created three ways to view my solution.
 
-1. Simply run Similar_Texts.py with the three txt files (sample1.txt, sample2.txt, sample3.txt). Python 3.7.4 was used. Install the python version if required. 
+1. Simply run Similar_Texts.py with the three txt files in the same working directory (sample1.txt, sample2.txt, sample3.txt). Python 3.7.4 was used. 
+
+Install the python version if required. 
 ```
-python Similar_Texts.py
+$ sudo apt install python3.7
+```
+
+$ python Similar_Texts.py
 ```
 
 The program itself will call the function that performs the similarity calculations for every combination of the 3 samples and print them to the console.
@@ -22,12 +27,12 @@ I have deployed my flask web app at http://rhong5.pythonanywhere.com/
 
 If you prefer to run it locally, ensure you have flask v1.1.1 and python installed if you haven't already.
 ```
-pip install flask==1.1.1
+$ pip install flask==1.1.1
 ``` 
 
 Then run webapp.py.
 ```
-python webapp.py
+$ python webapp.py
 ```
 The output will have a address that you can click on to direct you to the application.
 
@@ -41,12 +46,12 @@ https://docs.docker.com/engine/install/
 Pull docker container.
 
 ```
-docker pull rhong5/dockerflask:latest
+$ docker pull rhong5/dockerflask:latest
 ```
 
 Run the container.
 ```
-docker run -p <externalport>:<localport> rhong/dockerflask
+$ docker run -p <externalport>:<localport> rhong/dockerflask
 ```
 
   
